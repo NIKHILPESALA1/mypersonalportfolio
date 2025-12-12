@@ -2,13 +2,13 @@ import './globals.css'
 
 export const metadata = {
   title: 'Nikhil Pesala - Portfolio',
-  description: 'B.Tech CS student specializing in DevOps, Cloud Architecture, and AI/ML',
+  description: 'DevOps & Cloud Engineer | B.Tech CS Student at VIT Chennai',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   )
 }
